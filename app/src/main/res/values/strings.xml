@@ -2,4 +2,12 @@
     <string name="app_name">ShareApp</string>
     <string name="action_settings">Settings</string>
     <string name="facebook_app_id">1124700367589959</string>
+    <string name="com_mapbox_mapboxsdk_accessToken" translatable="false">pk.eyJ1IjoiY2luOTN1eG5yMWxmOXVka3NpeW15cWo4eCIsImEiOiJjaW45M3YwcW4xbGZidWRrc3dzdXg2Yjk1In0.qC8GTr9L9l2XjQcmF7IJ4w</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="black_map">mapbox://styles/cin93uxnr1lf9udksiymyqj8x/cin97lsac007eagm8o74hq7mm</string>
+    <string name="basic_map">mapbox://styles/cin93uxnr1lf9udksiymyqj8x/cin97vjfi00bkbckv3vavmgbc</string>
+    <string name="street_map">mapbox://styles/cin93uxnr1lf9udksiymyqj8x/cin985yi3001iabkr9gwt5wxy</string>
+
+
 </resources>

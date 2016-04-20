@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
     Button shareTwitter;
     @Bind(R.id.crash)
     Button crash;
-    @Bind(R.id.fab)
-    FloatingActionButton fab;
+    @Bind(R.id.go2Map)
+    Button go2Map;
     private ShareButton shareButtonFacebook;
     private Button shareButtonGooglePlus;
 
@@ -71,14 +71,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 shareWithTwitter();
-            }
-        });
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                share();
             }
         });
 
@@ -187,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @OnClick({R.id.share_fb, R.id.share_google_plus, R.id.share_twitter, R.id.crash, R.id.fab})
+    @OnClick({R.id.share_fb, R.id.share_google_plus, R.id.share_twitter, R.id.crash})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.share_fb:
@@ -198,8 +190,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.crash:
                 break;
-            case R.id.fab:
-                break;
         }
+    }
+
+    @OnClick(R.id.go2Map)
+    public void onClick() {
+        startActivity(new Intent(this, MapActivity.class));
     }
 }

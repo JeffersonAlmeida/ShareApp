@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_map"
+    tools:context="com.example.jeffersonalmeida.shareapp.MapActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapboxMapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        mapbox:access_token="@string/com_mapbox_mapboxsdk_accessToken"
+        mapbox:style_url="@string/street_map"
+
+
+    />
+
+
+</RelativeLayout>
