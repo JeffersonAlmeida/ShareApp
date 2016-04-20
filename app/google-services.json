@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "shareapp-1285",
+    "project_number": "14205800611",
+    "name": "ShareApp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14205800611:android:b05cd6a93c8c8de4",
+        "client_id": "android:com.example.jeffersonalmeida.shareapp",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.jeffersonalmeida.shareapp",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14205800611-0mig8naam0s42chg5cts8o0qrdp5lkpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeffersonalmeida.shareapp",
+            "certificate_hash": "34EE368E8460097504DFEC2B0A43FAF27D1090BC"
+          }
+        },
+        {
+          "client_id": "14205800611-k0943q80tdtrd0dpku7t7kk2a3o7erc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -9,6 +9,37 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main" tools:context=".MainActivity">
 
-    <TextView android:text="Hello World!" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/share_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/share_google_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share on Google+"
+        android:layout_below="@id/share_fb"
+        />
+
+
+    <Button
+        android:id="@+id/share_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/share_google_plus"
+        android:text="Share on Twitter"
+        />
+
+
+    <Button
+        android:id="@+id/crash"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/share_twitter"
+        android:text="Force Crash!"
+        android:onClick="forceCrash"
+        />
+
 </RelativeLayout>
